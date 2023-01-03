@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>todo list</title>
+    <link rel="stylesheet" href="css.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <input tpye="text" class="input-el" id="inputel" style="display:block;"/>
+        <input type="date" class="date-el" id="dateel" style="display:block;" >
+        <button class="save-el" id="savebtn" style="margin-top:20px;">save</button>
+        <button class="all-el" id="deleteallbtn" style="margin-top:20px;" ondblclick="deleteAll()">Delete All</button>
+        <div class="licontainer" id="lst-el">
+          <ul id="unsortedel">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

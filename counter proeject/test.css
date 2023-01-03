@@ -1,0 +1,100 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.headTitle{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-family:arial;
+  font-size:50px;
+  font-weight:bold;
+  background-color: black;
+  border-radius:6px;
+  padding-left:2px;
+  padding-right:5px;
+}
+
+.count{
+  color:black;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family:arial;
+  font-size:50px;
+  font-weight:bold;
+  margin-top:30px;
+}
+
+.buttons{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.increment{
+  background-color:rgb(158, 12, 12);
+  color:white;
+  border:none;
+  font-size:40px;
+  border-radius:5px;
+  margin-bottom :10px;
+  cursor:pointer;
+}
+
+.increment:active{
+  opacity:0.80;
+  transition:0.25s;
+}
+
+.save{
+  background-color:rgb(6, 129, 26);
+  color:white;
+  border:none;
+  font-size:40px;
+  border-radius:5px;
+  margin-bottom :10px;
+  cursor:pointer;
+}
+
+.save:active{
+  opacity:0.80;
+  transition:0.25s;
+}
+
+.safe{
+  color:black ;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family:arial;
+  font-weight:bold;
+  font-size:20px;
+}
+
+.restart{
+  background-color:rgb(158, 12, 12);
+  color:white;
+  border:none;
+  font-size:40px;
+  border-radius:5px;
+  margin-bottom :10px;
+  cursor:pointer;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.restart:active{
+  opacity:0.80;
+  transition:0.25s;
+}
+

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+  font-family: 'Indie Flower', Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+  height:90vh;
+  background: rgb(251, 251, 154);
+  overflow: hidden;
+}
+
+ul.navigation{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+li{
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:50px;
+  list-style: none;
+}
+
+.word,.home{
+  font-weight:bold;
+}
+
+section{
+  width:100%;
+  min-height:100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#color1{
+  width:20%;
+  min-height:90vh;
+  background-color: #2fbd2f;
+}
+#color2{
+  width:20%;
+  min-height:90vh;
+  background-color: #c90808;
+}
+#color3{
+  width:20%;
+  min-height:90vh;
+  background-color: #2a37a3;
+}
+#color4{
+  width:20%;
+  min-height:90vh;
+  background-color: #6716a1;
+}
+#color5{
+  width:20%;
+  min-height:90vh;
+  background-color: #d5d904;
+}
+
+.color{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end ;
+  align-items:center;
+  position: relative;
+  text-align: center;
+  min-height: 300px;
+}
+
+.name{
+  position: relative;
+  font-size: 150%;
+  font-weight: bold;
+  color:white;
+  top:-100px;
+}
+
+.name:hover{
+  cursor: pointer;
+  color:black;
+  font-size: 150%;
+  font-weight: bold;
+  transition:color 0.5s;
+}
+
+.relname{
+  position: relative;
+  font-size: 150%;
+  font-weight: bold;
+  color:white;
+  top:-100px;
+}
+
+.relname:hover{
+  cursor: pointer;
+  color:black;
+  font-size: 150%;
+  font-weight: bold;
+  transition:color 0.5s;
+}
+

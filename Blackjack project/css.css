@@ -1,0 +1,102 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  height : 100% ;
+}
+
+.elTitle{
+  position:absolute;
+  top: 15%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-family:arial;
+  font-weight:bold;
+  font-size:50px;
+  color:darkgoldenrod;
+}
+
+.elQuestion{
+  position:absolute;
+  top:35%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-family:arial;
+  font-weight:bold;
+  font-size:30px;
+  color:darkgoldenrod;
+  width:500px;
+}
+
+.elCard{
+  position:absolute;
+  top:53%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-family:arial;
+  font-weight:bold;
+  font-size:30px;
+  color:gold;
+}
+
+.elSum{
+  position:absolute;
+  top:60%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-family:arial;
+  font-weight:bold;
+  font-size:30px;
+  color:gold;
+}
+
+.elButtons{
+  position:absolute;
+  top:75%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.button1{
+  font-family:arial;
+  font-weight:bold;
+  font-size:30px;
+  background-color:darkgoldenrod;
+  color:darkgreen;
+  border:none;
+  border-radius:5px;
+  margin-right:20px;
+  cursor:pointer;
+}
+
+.button1:hover{
+  opacity:0.90;
+  transition: 0.10s;
+}
+
+.button1:active{
+  opacity:0.70;
+  transition: 0.25s;
+}
+
+
+.button2{
+  font-family:arial;
+  font-weight:bold;
+  font-size:30px;
+  background-color:darkgoldenrod;
+  color:darkgreen;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.button2:hover{
+  opacity:0.90;
+  transition: 0.10s;
+}
+
+.button2:active{
+  opacity:0.70;
+  transition: 0.25s;
+}

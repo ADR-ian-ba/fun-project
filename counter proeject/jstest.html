@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel = "stylesheet" href ="test.css"/>
+  </head>
+  <body>
+    <div class = "container">
+      <img src="tram.jfif" alt="tram" style = "width:100%; opacity:0.75;"/>
+      <div class="headTitle">
+        People Counter
+      </div>
+      <div class="count" id="counter">
+        0
+      </div>
+      <div class="buttons">
+        <div>
+          <button class = "increment" onclick="increment()">increment</button>
+        </div>
+        <div>
+          <button class = "save" onclick="saved()">save</button>
+        </div>
+      </div>
+      <div class= "safe" id="save">
+        Counter
+      </div>
+      <div>
+        <button class = "restart" onclick="restart()">Restart</button>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
